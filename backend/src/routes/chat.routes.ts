@@ -47,9 +47,9 @@ router.get(
   "/history/:sessionId",
   async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const { sessionId } = req.params;
+        const { sessionId } = req.params;
 
-      const conversation = await getOrCreateConversation(sessionId);
+       const conversation = await getOrCreateConversation(sessionId as string);
 
       res.status(200).json({
         sessionId: conversation.id,
