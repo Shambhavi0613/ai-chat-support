@@ -3,8 +3,8 @@
 A mini AI-powered customer support chat widget built for the Spur take-home assignment.
 
 ## Live Demo
-- Frontend: (add Vercel URL after deployment)
-- Backend: (add Render URL after deployment)
+- Frontend: https://ai-chat-support-frontend.vercel.app
+- Backend: https://ai-chat-support-backend.onrender.com
 
 ---
 
